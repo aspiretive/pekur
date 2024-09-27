@@ -1,5 +1,5 @@
 import TransitionLink from "./TransitionLink";
-import Test
+import Test from "./Test"
 
 const Navigation = () => {
     return (
@@ -12,6 +12,7 @@ const Navigation = () => {
                 <TransitionLink href="/work" label="Work"/>
                 <TransitionLink href="/about" label="About"/>
             </div>
+            <Test />
         </nav>
     )
 }
